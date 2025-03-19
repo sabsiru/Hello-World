@@ -4,7 +4,7 @@
 <<<<<<< HEAD
 라인 3 --> main 브랜치에서 라인 3 수정
 =======
-라인 3
+라인 3  --> conflict-test 브랜치에서 라인 3 수정
 >>>>>>> 71925b5 (conflict-test: add lines A1 and A2)
 라인 4
 라인 5
