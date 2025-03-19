@@ -1,23 +1,9 @@
 스파르타 코딩 클럽 git 강의 최고!
 라인 1
 라인 2
-<<<<<<< HEAD
-라인 3 --> main 브랜치에서 라인 3 수정
-=======
-라인 3  --> conflict-test 브랜치에서 라인 3 수정
->>>>>>> 71925b5 (conflict-test: add lines A1 and A2)
+라인 3 
 라인 4
 라인 5
 라인 6
 
-<<<<<<< HEAD
-cherry-pick 브랜치 테스트 입력입니다.
-main 브랜치에서 새로운 라인 M1 추가
-=======
 cherry-pick 브랜치 테스트 입력 입니다.
-
-아무말 대잔치!
-
-conflict-test 브랜치에서 새로운 라인 A1 추가
-conflict-test 브랜치에서 새로운 라인 A2 추가
->>>>>>> 71925b5 (conflict-test: add lines A1 and A2)
