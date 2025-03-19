@@ -1,0 +1,27 @@
+ 3823  touch issue_test.txt
+ 3824  vim issue_test.txt
+ 3825  git commit -m "fix:#3 issue_test.txt 내용 수정"
+ 3826  git add .
+ 3827  git commit -m "fix:#3 issue_test.txt 내용 수정"
+ 3828  git branch -m master main
+ 3829  git push -u origin main
+ 3830  vim issue_test.txt
+ 3831  git add .
+ 3832  git commit -m "fix:#3 issue_test.txt 두번째 수정"
+ 3833  git push -u origin main
+ 3834  touch issue_link_steps.txt
+ 3835  history -6 >> issue_link_steps.txt
+ 3836  history -12 >> issue_link_steps.txt
+ 3823  touch issue_test.txt
+ 3824  vim issue_test.txt
+ 3825  git commit -m "fix:#3 issue_test.txt 내용 수정"
+ 3826  git add .
+ 3827  git commit -m "fix:#3 issue_test.txt 내용 수정"
+ 3828  git branch -m master main
+ 3829  git push -u origin main
+ 3830  vim issue_test.txt
+ 3831  git add .
+ 3832  git commit -m "fix:#3 issue_test.txt 두번째 수정"
+ 3833  git push -u origin main
+ 3834  touch issue_link_steps.txt
+ 3835  history -26 >> issue_link_steps.txt
