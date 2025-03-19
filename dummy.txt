@@ -10,4 +10,9 @@ cherry-pick 브랜치 테스트 입력 입니다.
 
 아무말 대잔치!
 
+<<<<<<< HEAD
 main 브랜치에서 새로운 라인 M1 추가
+=======
+conflict-test 브랜치에서 새로운 라인 A1 추가
+conflict-test 브랜치에서 새로운 라인 A2 추가
+>>>>>>> 53c8fe1 (conflict-test: add lines A1 and A2)
