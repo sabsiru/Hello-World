@@ -1,0 +1,32 @@
+ 4051  git log --oneline
+ 4052  vim conflict_test.txt
+ # 여기는 main 입니다. 입력
+ 4053  git add .
+ 4054  git commit -m "main" 
+ 4055  git status
+ 4056  git branch feature
+ 4057  git checkout feature
+ 4058  vim conflict_test.txt
+ # 여기는 feature 입니다. 입력
+ 4059  git add .
+ 4060  git commit -m "feature" 
+ 4061  git rebase main
+ 4062  git checkout main
+ 4063  git checkout feature
+ 4064  git rebase main
+ 4065  git checkout main
+ 4066  git status
+ 4067  git add .
+ 4068  git commit -m "main2"
+ 4069  git checkout feature
+ 4071  git add .
+ 4072  git commit -m "feature2"
+ 4073  git rebase main
+ 4075  git add conflict_test.txt
+ 4076  git rebase --continue
+ # main -> feature 커밋메시지입력
+ 4077  git log --oneline
+ 4078  git rebase main
+ 4079  git status
+ 4081  git checkout main
+ 4082  git merge feature
